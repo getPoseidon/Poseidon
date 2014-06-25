@@ -1,5 +1,4 @@
-var should = require('should'),
-	sinon = require('sinon'),
+var expect = require("chai").expect,
 	Markdown = require('../../lib/core/parser/markdown');
 
 describe('Markdown', function () {
@@ -12,7 +11,7 @@ describe('Markdown', function () {
 		it('should convert a simple string to markdown',
 			function () {
 				var converted = m.convert("hello");
-				converted.should.be.equal("<p>hello</p>\n");
+				expect(converted).to.be.equal("<p>hello</p>\n");
 			});
 	});
 });

@@ -1,0 +1,7 @@
+{
+	//this is a comment
+	"key": "val",
+	"toBeOverwritten": {
+		"newVal": "ok"
+	}
+}

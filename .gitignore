@@ -179,3 +179,6 @@ sftp-config.json
 *.tmproj
 *.tmproject
 tmtags
+
+# poseidon
+coverage

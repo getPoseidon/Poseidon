@@ -1,11 +1,11 @@
-var should = require('should'),
+var expect = require("chai").expect,
 	sinon = require('sinon'),
-	Logger = require('../../lib/core/log');
+	Logger = require('../../lib/core/log/log');
 
 describe('Log', function () {
-	describe('root levels', function () {
-		var logger;
-		var spy;
+	describe('warning', function () {
+		var logger,
+			spy;
 		beforeEach(function () {
 			logger = new Logger();
 			spy = sinon.spy();
@@ -13,11 +13,7 @@ describe('Log', function () {
 		});
 
 		it('should log with the right level and the right message', function () {
-			var res = logger.info("ciao");
-			spy.callCount.should.be.equal(1);
-			spy.args[0][1].should.be.equal("info");
-			spy.args[0][2].should.be.equal("ciao");
-
+ 
 		});
 	});
 
