@@ -1,4 +1,7 @@
-var Poseidon = require('./lib/core/poseidon'),
+/*
+ Running Poseidon
+ */
+var Poseidon = require("./lib/poseidon"),
 	poseidon = new Poseidon();
 
 poseidon.run();

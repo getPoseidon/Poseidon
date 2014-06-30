@@ -1,5 +1,5 @@
 var expect = require("chai").expect,
-	Markdown = require('../../lib/core/parser/markdown');
+	Markdown = require('../../../lib/components/parser/markdown');
 
 describe('Markdown', function () {
 	describe('convert', function () {
