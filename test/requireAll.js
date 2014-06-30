@@ -4,5 +4,6 @@
  */
 var path = require("path");
 require('require-all')({
-	dirname: path.join(process.cwd(), "lib")
+	dirname: path.join(process.cwd(), "lib"),
+	filter: /\.js$/
 });
