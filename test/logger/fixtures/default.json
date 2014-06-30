@@ -1,0 +1,6 @@
+{
+	"log": {
+		"file": "test.log",
+		"level": "info"
+	}
+}

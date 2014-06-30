@@ -2,7 +2,6 @@ var expect = require("chai").expect,
 	Config = require("../../lib/config/config");
 
 function loadConf(env, appRoot, configDir) {
-	console.log(Config)
 	return new Config({
 		env: env,
 		appRoot: appRoot,
