@@ -1,4 +1,6 @@
 {
-//ciao
-	"2":2
+	"log": {
+		"file": "storage/logs/poseidon.log",
+		"level": "info"
+	}
 }
