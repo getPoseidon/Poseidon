@@ -34,4 +34,6 @@ Want to help? Pull requests are always welcome, and we're always looking for mor
 ##Next steps (implementation)
 * finish tests
 * start developing the logger module
+* travis integration with github project site
+* start using tracker
 
