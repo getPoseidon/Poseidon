@@ -6,24 +6,25 @@
 	npm install
 	
 ##Build
-the build system is based on `gulp.js`
+The build system is based on [gulp.js](http://gulpjs.com).
 
-##Test	
-	gulp test
+##Test
 the following commnad will run tests within the `test` folder using `mocha`.
 
-A coverage report will be availabe, thanks to `istanbul` int the folder `coverage/`
+	gulp test
+
+A coverage report will be availabe, thanks to [istanbul](http://gotwarlost.github.io/istanbul/) in the folder `coverage/`
 
 ##Coding standards	
 * indent with tabs
 * indent size is 2
 * install [editorconfig](http://editorconfig.org/) for your IDE in order to be consistent. The default `.editorconfig` file is already in the root folder
-* double quotes instead of single one
+* double quotes instead of single ones
 
 ##TODO
-More documentation has to be written
-comments using jsdoc 
+* Core documentation has to be written
+* Source comments use jsdoc 
 
 ##Next steps
-start developing the logger module, but tests before
+* start developing the logger module, but tests before
 
