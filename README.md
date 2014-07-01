@@ -9,11 +9,11 @@
 The build system is based on [gulp.js](http://gulpjs.com).
 
 ##Test
-the following commnad will run tests within the `test` folder using `mocha`.
+The following command will run tests within the `test` folder using [mocha](http://visionmedia.github.io/mocha/).
 
 	gulp test
 
-A coverage report will be availabe, thanks to [istanbul](http://gotwarlost.github.io/istanbul/) in the folder `coverage/`
+A coverage report will be available, thanks to [istanbul](http://gotwarlost.github.io/istanbul/) in the folder `coverage/`
 
 ##Coding standards	
 * indent with tabs
