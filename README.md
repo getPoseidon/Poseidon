@@ -9,7 +9,7 @@
 The build system is based on [gulp.js](http://gulpjs.com).
 
 ##Test
-The following command will run tests within the `test` folder using [mocha](http://visionmedia.github.io/mocha/).
+The following command will run tests within the `test` folder using [mocha](http://mochajs.org/).
 
 	gulp test
 
